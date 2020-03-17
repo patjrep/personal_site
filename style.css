@@ -1,0 +1,61 @@
+
+.grid-container {
+    display: grid;
+    background-color: aqua;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    padding-left: 10px;
+}
+
+
+.grid-item2 {
+    padding-left: 850px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.grid-item5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.projects {
+    display: grid;
+    background-color: brown;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.typing-game {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.timesheet-update {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.this-site {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.horizontal_list  li {
+    display: inline;
+    justify-self: end;
+
+}
