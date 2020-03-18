@@ -1,14 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    margin:0 auto;
+    padding: 0px;
+    overflow: auto;
+}
 
 .grid-container {
     display: grid;
-    grid-gap: 10px;
     grid-template-columns: auto auto auto;
+
 }
 
+.header-box {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url("images/mountain_range.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0px;
+    overflow: auto;
+}
 .grid-item {
     padding-left: 10px;
 }
 
+.navbar {
+    background-color;
+}
 
 .menu-list {
     padding-left: 850px;
@@ -22,18 +46,22 @@
     text-align: center;
     padding-top: 3in;
     padding-bottom: 3in;
-    background-image: url("images/mountain_range.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 .about-patrick {
+    padding-top: 50px;
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
     background-color: #191919;
 }
 
+.about-patrick-info {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .about-title {
     color: white;
 }
