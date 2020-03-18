@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-.body {
-    width: 100%;
-    margin:0 auto;
-    padding: 0px;
-    overflow: auto;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -25,6 +18,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     background-image: url("images/mountain_range.jpg");
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
 
 }
@@ -45,9 +39,17 @@
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
-    padding-top: 3in;
-    padding-bottom: 3in;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
+}
+
+.main-head {
+
 }
 
 .about-patrick {
