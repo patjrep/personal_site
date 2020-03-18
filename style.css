@@ -106,6 +106,7 @@
   
 .tr:nth-child(even) {
     background-color: #dddddd;
+}
 
 .table {
     display: table;
@@ -116,6 +117,6 @@
 }
 
 .horizontal_list  li {
-    display: inline-grid;
+    display: inline;
     text-align: right;
 }
