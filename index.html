@@ -16,8 +16,8 @@
   <div class="grid-container">
     <div class="header-box">
       <div class="navbar">
-        <div class="grid-item">
-          <h3 class="web-heading"> Pat's // Personal</h3>
+        <div class="web-title">
+          <p class="web-heading">Pat's // Personal</p>
         </div>
         <div class="menu-list">
           <div class="table">
@@ -43,18 +43,33 @@
         Lorem ipsum dolorem
       </p>
     </div>
-    <div class="grid-item4">
-      <h3 class="proj-title">Projects</h3>
-    </div>
-    <div class="grid-item5">
-      <div class="projects">
-        <div class="typing-game">Typing Game Proj</div>
-        <div class="timesheet-update">Timesheet Update py</div>
-        <div class="this-site">This Website!</div>
+      <div class="projects-pane">
+        <h3 class="proj-title">Projects</h3>
+        <table class="projects">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Language(s)</th>
+              <th>Stars</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://github.com/patjrep/typing_game" class="plain-link" target="_blank">Typing Game / Test</a>
+              </td>
+              <td>Interactive Typing game loaded with fun quotes. Calculates typing speed (WPM) and has a high scores list</td>
+              <td>Python</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+          <!--<div class="typing-game">Typing Game Proj</div>
+          <div class="timesheet-update">Timesheet Update py</div>
+          <div class="this-site">This Website!</div>-->
+        </table>
       </div>
     </div>
-    <div class="grid-item6">3</div>
-    <div class="grid-item7">3</div>
   </div>
   <script src="js/scripts.js"></script>
 </body>
