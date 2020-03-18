@@ -18,20 +18,20 @@
 }
 
 .header-box {
+    width: 100vw;
+    height: 100vh;
     grid-column-start: 1;
     grid-column-end: 4;
     background-image: url("images/mountain_range.jpg");
-    background-size: auto;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    margin: 0px;
-    overflow: auto;
+
 }
 .grid-item {
     padding-left: 10px;
 }
 
 .navbar {
-    background-color;
 }
 
 .menu-list {
