@@ -81,15 +81,13 @@
 .projects-pane {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-}
-
-.projects-pane {
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 .proj-title {
-    padding-top: 3%;
     padding-bottom: 3%;
     font-size: 16pt;
     font-family: Verdana, sans-serif;
@@ -124,6 +122,27 @@ td, th {
 /*tr:hover {
     background-color: #191919;
 }*/
+.personal-links {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: black;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
 
 .table {
     display: table;
@@ -131,6 +150,11 @@ td, th {
     width: 100%;
     text-align: right;
     margin: 0 auto;
+}
+
+.plain-link {
+    color: black; 
+    text-decoration: none;
 }
 
 .horizontal_list  li {
