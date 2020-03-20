@@ -125,23 +125,48 @@ td, th {
 .personal-links {
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: black;
+    background-color: #191919;
     grid-column: 1 / 4;
     grid-row: 4 / 5;
+    align-content: center;
+}
+
+.link-box {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    /*display: grid;
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;*/
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 100%;
+    width: 5%;
+    justify-content: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.fa-github {
+    background: white;
+    color: #191919;
+    text-align: center;
 }
 
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    background: white;
+   /* #007bb5;*/
+   font-size: 5%;
+   display: inline-block;
+   text-align: center;
+   color: #191919;
 }
 
 .table {
