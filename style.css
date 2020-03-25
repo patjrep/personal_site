@@ -1,30 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
-
-a.link1:link, a.link1:visited {
-    color: white;
-}
-
-a.link1:hover {
-    font-size: 125%;
-}
-
-.link1 {
-    text-decoration: none;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    overflow: hidden;
 }
 
-/*#header-box, #about-patrick, #projects-pane, #personal-links {
-    
-}
-*/
 #header-box {
     width: 100vw;
     height: 100vh;
@@ -38,11 +26,14 @@ a.link1:hover {
 .navbar {
     font-family: Verdana, sans-serif;
     font-size: 12pt;
-    padding-top: 3%;
-    padding-right: 4%;
+    padding-top: 1%;
+    padding-right: 11%;
     padding-left: 4%;
+    padding-bottom: 1%;
     display: grid;
-    color: white;
+    position: sticky;
+    top: 0;
+    background-color: white
 }
 
 .web-title {
@@ -159,7 +150,6 @@ a.link1:hover {
     padding-bottom: 50px;
 }
 
-
 #projects-pane {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
@@ -198,13 +188,6 @@ td, th {
     border-bottom: 1px solid #191919;
 }
 
-/*.tr:nth-child(even) {
-    background-color: #dddddd;
-}*/
-
-/*tr:hover {
-    background-color: #191919;
-}*/
 #personal-links {
     padding-top: 6%;
     padding-bottom: 10%;
@@ -289,5 +272,51 @@ td, th {
     color: white;
     display: inline;
     text-align: right;
+    text-decoration: none;
+    padding-right: 1%;
+}
+
+/* Transforms Navbar Links*/
+.link1 {
+    letter-spacing: 0;
+}
+
+.link1:hover,
+.link1:active {
+  letter-spacing: 2px;
+}
+
+.link1:after,
+.link1:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: inline;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+}
+
+.link1:hover:after,
+.link1:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+
+.link1:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+} 
+
+a.link1:link, a.link1:visited {
+    color: rgb(0, 0, 0);
+}
+
+.link1 {
     text-decoration: none;
 }
