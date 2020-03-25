@@ -16,24 +16,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<STYLE>A {text-decoration: none;} </STYLE>
-
 <body>
   <div class="grid-container">
-    <div class="header-box">
+    <div id="header-box">
       <div class="navbar">
         <div class="web-title">
-          <a href="https://patjrep.github.io/personal_site/" class="web-heading">Pat's // Personal</a>
+          <a class="link1" href="https://patjrep.github.io/personal_site/" class="web-heading">Pat's // Personal</a>
         </div>
         <div class="menu-list">
           <div class="table">
-            <ul class="horizontal_list">
-              <!--ass <a> tag to each with class nav-links and make them include text-decoration none and color: white-->
-              <li>Home</li>
-              <li><a href="#about-patrick" style="text-decoration:none">Patrick</a></li>
-              <li>Projects</li>
+            <ul class="horizontal-list">
+              <li><a class="link1" href="#header-box">Home</a></li>
+              <li><a class="link1" href="#about-patrick">Patrick</a></li>
+              <li><a class="link1" href="#projects-pane">Projects</a></li>
               <li>Resume</li>
-              <li><a href="#personal-links">Contact</a></li>
+              <li><a class="link1" href="#personal-links">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -58,7 +55,7 @@
         as well as managing engineering teams.
       </p>
     </div>
-      <div class="projects-pane">
+      <div id="projects-pane">
         <h3 class="proj-title">Projects</h3>
         <table class="projects">
           <thead>

@@ -4,12 +4,28 @@
     box-sizing: border-box;
 }
 
+a.link1:link, a.link1:visited {
+    color: white;
+}
+
+a.link1:hover {
+    font-size: 125%;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.header-box {
+/*#header-box, #about-patrick, #projects-pane, #personal-links {
+    
+}
+*/
+#header-box {
     width: 100vw;
     height: 100vh;
     grid-column-start: 1;
@@ -21,7 +37,6 @@
 
 .navbar {
     font-family: Verdana, sans-serif;
-    text-decoration: none;
     font-size: 12pt;
     padding-top: 3%;
     padding-right: 4%;
@@ -145,7 +160,7 @@
 }
 
 
-.projects-pane {
+#projects-pane {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
     padding-left: 5%;
@@ -164,6 +179,7 @@
     font-family: 'Montserrat', sans-serif;
     border-collapse: collapse;
     width: 100%;
+    color: black;
   }
   
 td {
@@ -234,26 +250,27 @@ td, th {
 }
 
 .fa-github {
-    background: white;
-    color: #191919;
+    background:#191919;
+    color: white;
     text-align: center;
 }
 
 .fa-linkedin {
-    background: white;
+    background: #191919;
    /* #007bb5;*/
    font-size: 5%;
    display: inline-block;
    text-align: center;
-   color: #191919;
+   color: white;
 }
 
 .fa-envelope-square {
-    background: white;
-    color: #191919;
+    background: #191919;
+    color: white;
 }
 
 .table {
+    grid-column: 3 / 4;
     display: table;
     padding-left: 100px;
     width: 100%;
@@ -268,7 +285,7 @@ td, th {
     text-decoration: none;
 }
 
-.horizontal_list  li {
+.horizontal-list li {
     color: white;
     display: inline;
     text-align: right;
