@@ -18,11 +18,11 @@
     height: 100vh;
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url("images/mountain_range.jpg");
+    background-image: url("images/website_header_patrick_repaci.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
-
+  
 .navbar {
     font-family: Verdana, sans-serif;
     font-size: 12pt;
