@@ -15,6 +15,8 @@
   <link rel="stylesheet" media='only screen and (min-width: 100px) and (max-width: 900px)' href='mobile.css'>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="toggle_text.js"></script>
 
 </head>
 
@@ -48,15 +50,17 @@
     </div>
     <div id="about-patrick">
       <h3 class="about-title">About Patrick</h3>
-      <p class="about-patrick-info">
-        Curious, creative, and driven. Loves exploring new technologies.
-        <br><br>Patrick enjoys creating things that solve problems in his own life, 
-        answers a burning curiosity, or creating something that helps others.
-        <br><br>He has experience developing in Python, JavaScript, HTML, and CSS. 
-        Patrick has several years experience as a Technical Business Analyst managing 
-        custom alerting technologies, driving storage and backup transformation projects, 
-        as well as managing engineering teams.
-      </p>
+      <div class="about-patrick-info">
+        <p class="patrick-info-text">
+          Curious, creative, and driven. Loves exploring new technologies.
+          <br><br>Patrick enjoys creating things that solve problems in his own life, 
+          answers a burning curiosity, or creating something that helps others.
+          <br><br>He has experience developing in Python, JavaScript, HTML, and CSS. 
+          Patrick has several years experience as a Technical Business Analyst 
+          <br>managing custom alerting technologies, driving storage and backup transformation 
+          projects, as well as managing engineering teams.
+        </p>
+      </div>
     </div>
       <div id="projects-pane">
         <h3 class="proj-title">Projects</h3>
@@ -102,9 +106,12 @@
         <p class="connect-text">Connect With Me</p>
         <div class=link-box>
           <a class="fa fa-linkedin fa-2x" href="http://www.linkedin.com/in/patrickjrepaci"></a>
-          <a class="fa fa-github fa-2x" href="https://github.com/patjrep"></a>
-          <i class="fa fa-envelope-square fa-2x"></i>
+          <a class="fa fa-github fa-2x" id="envelope" href="https://github.com/patjrep"></a>
+          <button class="fa fa-envelope-square fa-2x" onclick="toggle_text()"></button>
         </div>
+      </div>
+      <div id="email-reveal">
+        <a id="email-pro" href="patrickjrepaci@outlook.com"></a>
       </div>
     </div>
   </div>

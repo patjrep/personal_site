@@ -140,16 +140,17 @@
     font-size: 24pt;
     color: white;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
-
 .about-patrick-info {
+    font-size: 12pt;
+}
+
+.patrick-info-text {
     font-family: 'IBM Plex Serif', thin;
-    padding-left: 7%;
     font-size: 12pt;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 #projects-pane {
