@@ -269,17 +269,16 @@ td, th {
     border: none;
 }
 
-#email-pro {
+.email-box-reveal {
     display: none;
-    color: white;
-    font-size: 40px;
-}
-
-#email-reveal {
+    padding: 50px;
+    background: white;
     grid-column: 1 / 4;
-    grid-row: 5 / 6;
 }
-
+.random-text {
+    color: #191919;
+    font-size: 14pt;
+}
 .table {
     grid-column: 3 / 4;
     display: table;

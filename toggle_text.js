@@ -1,10 +1,9 @@
 
 function toggle_text() {
-    var envelope = document.getElementById("envelope");
-    var text = document.getElementById("email-pro");
+    var text = document.querySelector(".email-box-reveal");
     if (text.style.display === "none") {
-      text.style.display = "block";
+      text.style.display = "grid";
     } else {
       text.style.display = "none";
     }
-  }
+  } 
