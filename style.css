@@ -7,6 +7,10 @@
     transition-timing-function: ease;
 }
 
+body {
+    min-width: 400px
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
