@@ -13,8 +13,27 @@
     overflow: hidden;
 }
 
-/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+#header-box {
+    width: 100vw;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url("images/website_header_patrick_repaci.jpg");
+    background-size: 100vw 40vh;
+    background-repeat: no-repeat;
+}
 
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    /*-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
 
 
 .navbar {
@@ -27,7 +46,7 @@
     display: grid;
     position: sticky;
     top: 0;
-    background-color: white
+    background-color: white;
 }
 
 .web-title {
@@ -51,17 +70,6 @@
     text-decoration: none;
 }
 
-.header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
-}
 
 .name-line {
     font-family: 'Montserrat', sans-serif;

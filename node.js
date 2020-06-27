@@ -4,4 +4,4 @@ async function getGithubApi() {
     let data = await response.json()
     return data;
 }
-getGithubApi().then(data => conssole.log(data));
+getGithubApi().then(data => console.log(data));
