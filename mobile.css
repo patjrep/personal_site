@@ -96,7 +96,7 @@
     position: absolute;
     top: 1;
     bottom: 3%;
-    right: 33%;
+    right: 30%;
     /* Remove display: inline-block if not required to be on the same line as text etc */
     display: inline-block;
     background-color: white;
