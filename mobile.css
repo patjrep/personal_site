@@ -84,7 +84,7 @@
 
 .main-head {
     font-family: 'IBM Plex Serif', thin;
-    font-size: 26pt;
+    font-size: 27pt;
     color: white;
 }
 
@@ -94,7 +94,7 @@
     position: absolute;
     top: 1;
     bottom: 3%;
-    right: 25%;
+    right: 23%;
     /* Remove display: inline-block if not required to be on the same line as text etc */
     display: inline-block;
     background-color: white;
