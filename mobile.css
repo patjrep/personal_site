@@ -38,7 +38,7 @@
 
 .navbar {
     font-family: Verdana, sans-serif;
-    font-size: 16pt;
+    font-size: 18pt;
     padding-top: 1%;
     padding-right: 11%;
     padding-left: 4%;
@@ -73,7 +73,7 @@
 
 .name-line {
     font-family: 'Montserrat', sans-serif;
-    font-size: 44pt;
+    font-size: 51pt;
     text-align: left;
     color: white;
 }
@@ -84,7 +84,7 @@
 
 .main-head {
     font-family: 'IBM Plex Serif', thin;
-    font-size: 20pt;
+    font-size: 27pt;
     color: white;
 }
 
@@ -93,15 +93,15 @@
     content: "";
     position: absolute;
     top: 1;
-    bottom: 3px;
-    right: -10px;
+    bottom: 3%;
+    right: 26%;
     /* Remove display: inline-block if not required to be on the same line as text etc */
     display: inline-block;
     background-color: white;
     vertical-align: top;
-    width: 10px;
+    width: 14px;
     /* Set height to the line height of .text */
-    height: 36px;
+    height: 40px;
     /* 
     Animation paramaters:
     blink = animation-name, 
@@ -138,19 +138,19 @@
 
 .about-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-size: 42pt;
     color: white;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 .about-patrick-info {
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 .patrick-info-text {
     font-family: 'IBM Plex Serif', thin;
-    font-size: 22pt;
+    font-size: 26pt;
     color: white;
     padding-right: 15%;
 }
@@ -191,7 +191,7 @@ th {
 
 td, th {
     border-bottom: 1px solid #191919;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 #personal-links {
