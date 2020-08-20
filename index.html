@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -14,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="mobile.css" media="only screen and (max-device-width: 480px)">
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="script.js"></script>
   <script src="toggle_text.js"></script>
@@ -22,25 +23,33 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="web-title">
-          <a class="link1" href="https://patjrep.github.io/personal_site/" class="web-heading">Pat's // Personal</a>
-        </div>
-        <div class="menu-list">
-          <div class="table">
-            <ul class="horizontal-list">
-              <li><a class="link1" href="#header-box">Home</a></li>
-              <li><a class="link1" href="#about-patrick">Patrick</a></li>
-              <li><a class="link1" href="#projects-pane">Projects</a></li>
-              <!--<li><a class="link1" href="#personal-links">Resume</a></li>-->
-              <li><a class="link1" href="#personal-links">Connect</a></li>
-            </ul>
-          </div>
-        </div>
+  <div class="navbar">
+    <div class="web-title">
+      <a class="link1" href="https://patjrep.github.io/personal_site/" class="web-heading">Pat's // Personal</a>
+    </div>
+    <div class="menu-list">
+      <div class="table">
+        <ul class="horizontal-list">
+          <li>
+            <a class="link1" href="#header-box">Home</a>
+          </li>
+          <li>
+            <a class="link1" href="#about-patrick">Patrick</a>
+          </li>
+          <li>
+            <a class="link1" href="#projects-pane">Projects</a>
+          </li>
+          <!--<li><a class="link1" href="#personal-links">Resume</a></li>-->
+          <li>
+            <a class="link1" href="#personal-links">Connect</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
   <div class="grid-container">
     <div id="header-box">
-      
+
       <div class="header">
         <div class="main-head">
           <h1 class="name-line">Patrick Repaci</h1>
@@ -54,73 +63,87 @@
       <div class="about-patrick-info">
         <p class="patrick-info-text">
           Curious, creative, and driven. Loves exploring new technologies.
-          <br><br>Patrick enjoys creating things that solve problems in his own life, 
-          answers a burning curiosity, or creating something that helps others.
-          <br><br>He has experience developing in Python, JavaScript, BASH/Shell, SQL, PLSQL, HTML, and CSS. 
-          <br>Patrick has several years experience as a Technical Business Analyst 
-          managing custom alerting technologies, driving storage and backup transformation 
-          projects, as well as driving engineering teams.
+          <br>
+          <br>Patrick enjoys creating things that solve problems in his own life, answers a burning curiosity, or creating something
+          that helps others.
+          <br>
+          <br>He has experience developing in Python, JavaScript, BASH/Shell, SQL, PLSQL, HTML, and CSS.
+          <br>Patrick has several years experience as a Technical Business Analyst managing custom alerting technologies, driving
+          storage and backup transformation projects, as well as driving engineering teams.
         </p>
       </div>
     </div>
-      <div id="projects-pane">
-        <h3 class="proj-title">Projects</h3>
-        <table class="projects">
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Description</th>
-              <th>Language(s)</th>
-              <th>Stars</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <a href="https://github.com/patjrep/typing_game" class="plain-link" target="_blank">Typing Game / Test</a>
-              </td>
-              <td>Interactive Typing game loaded with fun quotes. Calculates typing speed (WPM) and a sorted high scores list</td>
-              <td>Python</td>
-              <td>4</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://github.com/patjrep/timesheet_update.py" class="plain-link" target="_blank">Timesheet Automation</a>
-              </td>
-              <td>Automatically creates a timesheet in Excel and saves it, generates an email (populated with text, TO, and CC), 
-                and attaches the file</td>
-              <td>Python (Some HTML/CSS)</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://github.com/patjrep/discord_bot" class="plain-link" target="_blank">Discord Bot</a>
-              </td>
-              <td>Discord bot with some fun fucntionality including replying with images, inventories, and money. Originally written to show my younger sister the power of code</td>
-              <td>Javascript, Discord API, Node </td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://github.com/patjrep/personal_site" class="plain-link" target="_blank">Personal Website</a>
-              </td>
-              <td>You're already looking at it!</td>
-              <td>Javascript, HTML, CSS</td>
-              <td>0</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div id="personal-links">
-        <p class="connect-text">Connect With Me</p>
-        <div class=link-box>
-          <a class="fa fa-linkedin fa-2x" href="http://www.linkedin.com/in/patrickjrepaci"></a>
-          <a class="fa fa-github fa-2x" id="envelope" href="https://github.com/patjrep"></a>
-          <!--<a class="fa fa-envelope-square fa-2x" href="Contact_Patrick/contact_me.html"></a>-->
-        </div>
-      </div>
+    <div id="projects-pane">
+      <h3 class="proj-title">Projects</h3>
+      <table class="projects">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Language(s)</th>
+            <th>Stars</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://github.com/patjrep/" class="plain-link" target="_blank">Bad Jobs</a>
+            </td>
+            <td>Personal private repo to be realeased as a full site. Allows users to create accounts and post jobs that are
+              inappropriate or predatory within the SWE industry. For example, jobs that offer no pay and require years of
+              experience, jobs that make users pay to work, etc. The goal is to raise awareness of employment opportunities
+              that aim to take advantage of employees in order to hold the tech industry to a higher standard. </td>
+            <td>React, JSX, HTML, CSS, Docker, MYSQL, Node JS, OAuth</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/patjrep/typing_game" class="plain-link" target="_blank">Typing Test</a>
+            </td>
+            <td>Interactive Typing game loaded with fun quotes. Calculates typing speed (WPM) and a sorted high scores list</td>
+            <td>Python</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/patjrep/timesheet_update.py" class="plain-link" target="_blank">Timesheet Automation</a>
+            </td>
+            <td>Automatically creates a timesheet in Excel and saves it, generates an email (populated with text, TO, and CC),
+              and attaches the file</td>
+            <td>Python (Some HTML/CSS)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/patjrep/discord_bot" class="plain-link" target="_blank">Discord Bot</a>
+            </td>
+            <td>Discord bot with some fun fucntionality including replying with images, inventories, and money. Originally written
+              to show my younger sister the power of code</td>
+            <td>Javascript, Discord API, Node </td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/patjrep/personal_site" class="plain-link" target="_blank">Personal Website</a>
+            </td>
+            <td>You're already looking at it!</td>
+            <td>Javascript, HTML, CSS</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="personal-links">
+      <p class="connect-text">Connect With Me</p>
+      <div class=link-box>
+        <a class="fa fa-linkedin fa-2x" href="http://www.linkedin.com/in/patrickjrepaci"></a>
+        <a class="fa fa-github fa-2x" id="envelope" href="https://github.com/patjrep"></a>
+        <!--<a class="fa fa-envelope-square fa-2x" href="Contact_Patrick/contact_me.html"></a>-->
       </div>
     </div>
   </div>
+  </div>
+  </div>
 </body>
+
 </html>
