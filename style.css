@@ -228,6 +228,16 @@ td, th {
     padding-top: 6%;
     padding-bottom: 6%;
 }
+
+.typr-gif {
+    height: 100px;
+    width: 100px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
 /*
 .connect-text p:before,
 .connect-text p:after {
