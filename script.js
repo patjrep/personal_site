@@ -39,17 +39,18 @@ $('a[href*="#"]')
 
 function changeGifSize(id) {
   let typrGif = document.getElementById(id);
-  console.log(id, typrGif)
   let height = typrGif.height;
   let width = typrGif.width;
   originalSize = typrGif.naturalHeight;
-  if (height < width + 1) {
-    typrGif.style.height = '340px';
-    typrGif.style.width = '573px';
-  }
-  else {
+  if (height || width > 100) {
     typrGif.style.height = '100px';
     typrGif.style.width = '100px';
   }
+  if (height == 100) {
+    typrGif.style.height = '340px';
+    typrGif.style.width = '573px';
+    console.log('hi')
+  }
+
   console.log(height, width)
 }
