@@ -37,11 +37,13 @@ $('a[href*="#"]')
 
 
 
-function changeTyprGif() {
-  let typrGif = document.getElementById("gifs");
+function changeGifSize(id) {
+  let typrGif = document.getElementById(id);
+  console.log(id, typrGif)
   let height = typrGif.height;
   let width = typrGif.width;
-  if (height < typrGif.naturalHeight) {
+  originalSize = typrGif.naturalHeight;
+  if (height < width + 1) {
     typrGif.style.height = '340px';
     typrGif.style.width = '573px';
   }
