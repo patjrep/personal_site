@@ -35,6 +35,7 @@ body {
   
 .navbar {
     font-family: Verdana, sans-serif;
+    z-index: 1;
     font-size: 12pt;
     padding-top: 1%;
     padding-right: 11%;
