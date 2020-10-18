@@ -47,9 +47,10 @@ function changeGifSize(id) {
     typrGif.style.width = '100px';
   }
   if (height == 100) {
+    // let outer = $("")
+    // $("td:parent").fadeTo(1500, 0);
     typrGif.style.height = '340px';
     typrGif.style.width = '573px';
-    console.log('hi')
   }
 
   console.log(height, width)
