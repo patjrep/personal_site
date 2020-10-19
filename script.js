@@ -53,5 +53,19 @@ function changeGifSize(id) {
     typrGif.style.width = '573px';
   }
 
+  if (height || width > 100 && screen.width < 1000) {
+    typrGif.style.height = '100px';
+    typrGif.style.width = '100px';
+  }
+  if (height == 100 && screen.width < 1000) {
+    // let outer = $("")
+    // $("td:parent").fadeTo(1500, 0);
+    // let gifClass = document.getElementsByClassName("table-col-2");
+    // console.log(gifClass)
+    // console.log(document.getElementsByClassName("proj-title").style.color = "red");
+    typrGif.style.height = '500px';
+    typrGif.style.width = '843.17px';
+  }
+
   console.log(height, width)
 }
