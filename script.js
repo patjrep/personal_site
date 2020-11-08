@@ -59,7 +59,7 @@ function changeGifSize(id) {
   }
   if (height == 100 && screen.width < 1000) {
     // let outer = $("")
-    // $("td:parent").fadeTo(1500, 0);
+    // $("td:parent").fadeTo(1500, 0)
     // let gifClass = document.getElementsByClassName("table-col-2");
     // console.log(gifClass)
     // console.log(document.getElementsByClassName("proj-title").style.color = "red");  //need to fix for mobile
