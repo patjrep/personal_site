@@ -49,8 +49,10 @@ function changeGifSize(id) {
   if (height == 100) {
     // let outer = $("")
     // $("td:parent").fadeTo(1500, 0);
+    console.log(typrGif.style.height);
     typrGif.style.height = '340px';
     typrGif.style.width = '573px';
+    console.log(typrGif.style.height, 'here')
   }
 
   if (height || width > 100 && screen.width < 1000) {
@@ -67,5 +69,5 @@ function changeGifSize(id) {
     typrGif.style.width = '843.17px';
   }
 
-  console.log(height, width)
+  // console.log(height, width)
 }
