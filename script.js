@@ -42,22 +42,24 @@ function changeGifSize(id) {
   let height = typrGif.height;
   let width = typrGif.width;
   originalSize = typrGif.naturalHeight;
-  if (height || width > 100) {
+  if (height > 100 || width > 100) {
     typrGif.style.height = '100px';
     typrGif.style.width = '100px';
   }
-  if (height == 100) {
-    // let outer = $("")
-    // $("td:parent").fadeTo(1500, 0);
-    console.log(typrGif.style.height);
-    typrGif.style.height = '340px';
-    typrGif.style.width = '573px';
-    console.log(typrGif.style.height, 'here')
-  }
+
 
   if (height || width > 100 && screen.width < 1000) {
     typrGif.style.height = '100px';
     typrGif.style.width = '100px';
+
+    if (height == 100) {
+      // let outer = $("")
+      // $("td:parent").fadeTo(1500, 0);
+      console.log(typrGif.style.height);
+      typrGif.style.height = '340px';
+      typrGif.style.width = '573px';
+    }
+
   }
   if (height == 100 && screen.width < 1000) {
     // let outer = $("")
